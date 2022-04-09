@@ -1,0 +1,28 @@
+.menu {
+    width: 100%;
+    margin: auto;
+    background: rgb(237, 237, 211);
+}
+
+nav {
+    padding: 20px;
+    display: inline-flex;
+}
+
+nav a {
+    text-align: center;
+    margin: 0 18px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(140, 128, 128);
+    padding: 5px 10px;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:770px) {
+    nav {
+        display: block;
+    }
+
+}
